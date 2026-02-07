@@ -57,7 +57,7 @@ const SignUpPage = () => {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="form-control">
               <label className="label">
-                <span className="label-text font-medium">Abhinav Yadav</span>
+                <span className="label-text font-medium">Full Name</span>
               </label>
               <div className="relative">
                   <User className="absolute left-3 top-1/2 -translate-y-1/2 size-5 text-base-content/40 pointer-events-none z-10" />
@@ -65,7 +65,7 @@ const SignUpPage = () => {
                 <input
                   type="text"
                   className={`input input-bordered w-full pl-10`}
-                  placeholder="John Doe"
+                  placeholder="Abhinav Yadav"
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                 />
